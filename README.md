@@ -1,6 +1,6 @@
 # README #
 
-cordova-phaser is a cordova-cli template aimed to help create [Phaser.io](http://www.phaser.io/) games as android native apps.
+cordova-phaser is a cordova-cli template aimed to help create [Phaser.io](http://www.phaser.io/) games.
 
 
  This README assumes that you are already familiar with [cordova-cli](https://cordova.apache.org/docs/en/latest/guide/cli/) and [Phaser.io](http://www.phaser.io/)
@@ -12,9 +12,13 @@ cordova create hello com.example.hello HelloWorld --template cordova-phaser-babe
 
 cd hello
 
+npm install
+
+cordova run
+
 ```
 
-
+A cordova hook 'before_prepare' is used to run webpack build on 'cordova run'.
 
 # NOTES #
 
