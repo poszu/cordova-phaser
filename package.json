@@ -1,20 +1,40 @@
 {
-  "name": "cordova-phaser",
-  "version": "1.0.4",
-  "description": "A cordova-cli template for phaser games, Aimed to Android deployment.",
+  "name": "cordova-phaser-babel",
+  "version": "1.0.0",
+  "description": "A cordova-cli template for phaser games using babel and webpack for dev.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/amex4152/cordova-phaser.git"
+    "url": "https://github.com/poszu/cordova-phaser.git"
   },
-  "homepage": "https://github.com/amex4152/cordova-phaser",
+  "homepage": "https://github.com/poszu/cordova-phaser",
   "keywords": [
     "ecosystem:cordova",
     "cordova:template"
   ],
   "author": "Cristian Garibay",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "contributors": [
+    {
+      "name": "Cristian Garibay",
+      "email": null,
+      "url": "https://github.com/amex4152",
+      "contributions": 14,
+      "additions": 714,
+      "deletions": 34,
+      "hireable": null
+    },
+    {
+      "name": "Bartosz Różański",
+      "email": "bartek.roza@gmail.com",
+      "url": "https://github.com/poszu",
+      "contributions": 1,
+      "additions": 245,
+      "deletions": 333,
+      "hireable": null
+    }
+  ]
 }

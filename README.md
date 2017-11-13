@@ -8,7 +8,7 @@ cordova-phaser is a cordova-cli template aimed to help create [Phaser.io](http:/
 
 ## STEPS ##
 ```
-cordova create hello com.example.hello HelloWorld --template cordova-phaser
+cordova create hello com.example.hello HelloWorld --template cordova-phaser-babel
 
 cd hello
 
@@ -24,5 +24,3 @@ Includes a .gitignore file.
 This template works with iOS, if the requirements for cordova-cli are previously fulfilled, and iOS platform is added. Optionally you could remove android platform and crosswalk plugin.
 
  *Seems to be a bug with the ios simulator, check this [Stackflow question](https://stackoverflow.com/questions/42350505/error-cannot-read-property-replace-of-undefined-when-building-ios-cordova).*
-
- 
