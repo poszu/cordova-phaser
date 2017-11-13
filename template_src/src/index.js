@@ -1,3 +1,7 @@
+import 'pixi'
+import 'p2'
+import Phaser from 'phaser'
+
 import Boot from './states/Boot'
 import Preloader from './states/Preloader'
 import MainMenu from './states/MainMenu'

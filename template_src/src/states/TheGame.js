@@ -1,3 +1,4 @@
+import Phaser from 'phaser'
 
 export default class TheGame extends Phaser.State {
   preload () {

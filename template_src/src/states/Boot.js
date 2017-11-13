@@ -1,3 +1,5 @@
+import Phaser from 'phaser'
+
 export default class Boot extends Phaser.State {
   init () {
     //  Unless you specifically know your game needs to support multi-touch I would recommend setting this to 1

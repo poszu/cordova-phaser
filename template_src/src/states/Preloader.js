@@ -1,3 +1,5 @@
+import Phaser from 'phaser'
+
 export default class Preloader extends Phaser.State {
   init () {
     this.preloadBar = null
